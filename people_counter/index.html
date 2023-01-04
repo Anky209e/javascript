@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Counter</title>
+    
+</head>
+<style>
+    body{
+        background-color: rgb(59, 58, 58);
+        text-decoration: none;
+        text-align: center;
+        color: aliceblue;
+    }
+    button{
+        padding: 1%;
+    }
+    #message{
+        display: none;
+    }
+</style>
+<body>
+    <script src="/people_counter/index.js"></script>
+    <h1>Number of People Registered:</h1>
+    <h2 id="count-people">0</h2>
+    <button id="inc-btn" style="background-color: rgb(92, 209, 92); border-radius: 10px;" onclick="increment()">Increase</button>
+    <button id="dec-btn" style="background-color: rgb(44, 132, 184); border-radius: 10px;" onclick="decrement()">Decrease</button>
+    <button id="res-btn" style="background-color: rgb(251, 53, 4); border-radius: 10px;" onclick="reset()">Reset</button>
+    <h2 id="message">Whoops! &#128517; Negative Values are not Accepted</h2>
+</body>
+</html>
