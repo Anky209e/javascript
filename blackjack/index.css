@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Rochester&display=swap');
+
+body{
+    background-color: rgb(61, 58, 58);
+    text-align: center;
+    color: aliceblue;
+}
+
+#heading{
+    font-family: 'Rochester', cursive;
+    color: goldenrod;
+    font-size:80px;
+    font-weight: 300;
+}
+
+#message-el{
+    font-family: 'Orbitron', sans-serif;
+    font-size: x-large;
+}
+
+.stats{
+    font-family: 'Orbitron', sans-serif;
+    font-size: x-large;
+}
+
+button{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.new-btn{
+    background-color: rgb(81, 216, 81);
+    border-radius: 4px;
+    color: rgb(61, 58, 58);
+    font-size: larger;
+}
